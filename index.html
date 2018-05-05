@@ -7,27 +7,51 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
   </head>
   <body>
-      <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
-        <div class="container">
-          <a class="navbar-brand" href="#">La tienda de Garoso</a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav ml-auto">
-              <ul class="navbar-nav">
-                <li>
-                  <a class="nav-item nav-link px-3" href="#"><i class="fas fa-shopping-cart"></i>Canasta</a>
-                </li>
-                <li>
-                  <a class="nav-item nav-link px-3" href="#">Salir</a>
-                </li>
-              </ul>
+    <div class="container">
+        <header class="navbar navbar-expand navbar-dark">
+            <a class="navbar-brand" href="#">La tienda de Garoso</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav ml-auto">
+                <ul class="navbar-nav">
+                  <li>
+                    <a class="nav-item nav-link px-3" href="#"><i class="fas fa-shopping-cart"></i>Canasta</a>
+                  </li>
+                  <li>
+                    <a class="nav-item nav-link px-3" href="#">Salir</a>
+                  </li>
+                </ul>
+              </div>
             </div>
-          </div>
-        </div>
-      </nav>
+        </header>
 
+      <div class="row">
+        <aside class="col col-md-3">
+          <form class="form-inline">
+            <div class="input-group-prepend">
+            <input type="text" class="form-control" placeholder="Search">
+            <span class=" input-group-btn">
+              <button class="btn btn-outline-dark" type="button"><i class="fas fa-search"></i></button>
+            </span>
+          </div>
+          </form>
+          <div class="list-group mt-3 d-none d-md-block">
+            <h3>Categorias</h3>
+            <a href="#" class="list-group-item d-flex justify-content-between list-group-item-action active">Todos<span class="badge badge-pill badge-light">100</span></a>
+            <a href="#" class="list-group-item d-flex justify-content-between list-group-item-action">Hombre<span class="badge badge-pill badge-secondary">57</span></a>
+            <a href="#" class="list-group-item d-flex justify-content-between list-group-item-action">Mujer<span class="badge badge-pill badge-secondary">79</span></a>
+            <a href="#" class="list-group-item d-flex justify-content-between list-group-item-action">Hipster<span class="badge badge-pill badge-secondary">24</span></a>
+            <a href="#" class="list-group-item d-flex justify-content-between list-group-item-action">Metal<span class="badge badge-pill badge-secondary">06</span></a>
+            <a href="#" class="list-group-item d-flex justify-content-between list-group-item-action">Universidad<span class="badge badge-pill badge-secondary">16</span></a>
+            <a href="#" class="list-group-item d-flex justify-content-between list-group-item-action">Deportiva<span class="badge badge-pill badge-secondary">64</span></a>
+            <a href="#" class="list-group-item d-flex justify-content-between list-group-item-action">Rayas<span class="badge badge-pill badge-secondary">15</span></a>
+            <a href="#" class="list-group-item d-flex justify-content-between list-group-item-action">Apretada<span class="badge badge-pill badge-secondary">58</span></a>
+          </div>
+        </aside>
+      </div>
+    </div>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
